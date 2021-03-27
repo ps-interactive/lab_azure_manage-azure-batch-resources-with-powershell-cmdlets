@@ -19,7 +19,7 @@ dt_string = now.strftime("%Y-%m-%d %H:%M")
 print("{} Beginning analysis".format(dt_string))
 
 # Simulate the analysis time by sleeping for up to 1 minute
-time.sleep(random.randint(1, 60))
+time.sleep(random.randint(30, 60))
 
 # Report the analysis
 print("CANDIDATE  : {}".format(data['id']))
