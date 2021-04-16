@@ -21,6 +21,10 @@ print("{} Beginning analysis".format(dt_string))
 # Simulate the analysis time by sleeping for up to 1 minute
 time.sleep(random.randint(30, 60))
 
+# Complete the analysis
+dt_string = now.strftime("%Y-%m-%d %H:%M")
+print("{} Analysis complete".format(dt_string))
+
 # Report the analysis
 print("CANDIDATE  : {}".format(data['id']))
 print("BLOOD GROUP: {}".format(data['blood_group']))
